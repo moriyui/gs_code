@@ -1,0 +1,13 @@
+SELECT * FROM gs_an_table
+
+SELECT id,name FROM gs_an_table
+
+SELECT * FROM gs_an_table WHERE name='test2'
+
+SELECT * FROM gs_an_table ORDER BY id DESC
+
+SELECT * FROM gs_an_table ORDER BY id DESC LIMIT 3
+
+SELECT COUNT(*) AS age,COUNT(*) FROM gs_an_table GROUP BY age
+
+AS age,COUNT(*) 
