@@ -4,6 +4,10 @@
 
 3.SELECT * FROM gs_an_table WHERE email LIKE 'test1%'
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 4.SELECT * FROM gs_an_table ORDER BY indate DESC
 
 5.SELECT * FROM gs_an_table WHERE age=20 AND indate LIKE '2020-06%'
